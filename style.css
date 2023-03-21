@@ -1,0 +1,31 @@
+.white-text {
+    color: white;
+}
+
+body {
+    font-family: arial;
+}
+
+ul {
+    list-style: none;
+}
+
+body > header {
+    padding: 1rem;
+    background: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head {
+    padding: 1rem;
+    background: rgb(46, 49, 120);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#white {
+    color: white;
+}
