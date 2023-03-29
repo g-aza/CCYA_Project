@@ -6,8 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
-
+        <script src="data.js"></script>
+        
 </head>
  
 <body>
@@ -37,27 +37,36 @@
    <aside style="text-align: end;"> <button onclick="myFunction()">Toggle dark mode</button>
     </aside>
  <main class="body_sec">
-    <id id="Content">
-        <h1 style="font-size: 49px;letter-spacing: -0.063em;font-weight: 600;font-style: italic;line-height: 0;">Home</h1>     <h3>! -- WEBSITE IN PROGRESS -- CONTENT COMING SOON -- !</h3>
+    <id id="Content">   
+        <h1>Login</h1>
+        <div class="container">
+            <form id="form">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required id="username"> <br> <br>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required> <br> <br>
+                
+            <button id="button" type="button">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+
+            <p id="button-result">Please login, or <a>create an account</a>.</p>
+          </div>
+        </form>
         </id>
         </div>
     </section>
-    
-<!--    ANIM TEST    -->
 
-<script src="anim.js"></script>
-
-
-
+    <!DOCTYPE html>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
     <!-- bottom -->
     <footer> © CCYA 2023</footer>
 </body>
-
-
-
-
-
 <style>
     body {
       background-color: white;
@@ -73,5 +82,5 @@
        var element = document.body;
        element.classList.toggle("dark-mode");
     }
-    </scrip>
+    </script>
 </html>

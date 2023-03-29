@@ -44,7 +44,7 @@ body {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
   a:hover {
-    box-shadow: inset 150px 0 0 0 #54b3d6;
+    box-shadow: inset 150px 0 0 0 #72d0bf;
     color: #022F40;
   }
 
@@ -109,3 +109,23 @@ img {
   h2 {
     text-size-adjust: 20px;
   }
+
+  button {
+    background-color: #7ab1b3;
+    color: white;
+    padding: 6px 10px;
+    border: 7px outset
+    #348184;
+    cursor: pointer;
+    border-colo
+  }
+
+  button:hover {
+    opacity: 0.8;
+}
+
+  h1 {
+   color: #5f9ea0
+   
+  }
+
