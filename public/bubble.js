@@ -1,16 +1,9 @@
-let font,
-  fontsize = 40;
+let bubbles;
 
-function preload() {
-  // Ensure the .ttf or .otf font stored in the assets directory
-  // is loaded before setup() and draw() are called
- // font = loadFont('assets/SourceSansPro-Regular.otf');
-}
-
-
+function createBubbles ()
 
 function setup() {  
-    createCanvas (1540, 680);
+    createCanvas (640, 480);
     bubbles = [];
     for (let i=0; i < 80; i++){
         //randomise bubble position
@@ -27,7 +20,7 @@ function setup() {
    // background(blue); --  Put it here to draw a new circle every frame.
 }
 function draw(){
-    background('#fffff');
+    background('#EFDC05');
     for (let bubble of bubbles){
    bubble.draw();
    bubble.move();
